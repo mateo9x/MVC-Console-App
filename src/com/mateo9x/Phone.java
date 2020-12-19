@@ -7,10 +7,21 @@ import java.util.List;
 public class Phone {
 
     //declatarion of variables
-
-
     private String brand;
     private String model;
+
+    @Override
+    public String toString() {
+        return "Phone{" +
+                "brand='" + brand + '\'' +
+                ", model='" + model + '\'' +
+                '}';
+    }
+
+    public Phone(String brand, String model) {
+        this.brand = brand;
+        this.model = model;
+    }
 
 
 

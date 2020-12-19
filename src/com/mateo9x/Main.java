@@ -71,9 +71,7 @@ public class Main {
     }
 
         private static Phone phoneFromDB () {
-            Phone phone = new Phone();
-            phone.setBrand("Samsung");
-            phone.setModel("Galaxy S");
+            Phone phone = new Phone("Samsung", "Galaxy");
             return phone;
         }
 
