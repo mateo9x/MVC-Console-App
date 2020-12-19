@@ -14,4 +14,4 @@ NONE
 ## 3. Technologies
 Project is created with:
 * Java
-
+* JUnit
